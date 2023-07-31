@@ -1,14 +1,25 @@
-# youtube-popout-overlay
-A simple CSS snippet for the YouTube popout live chat to make it into an OBS Studio overlay
+# YouTube Popout Overlay
+A simple **CSS snippet** for the **YouTube popout** live chat to make it into an OBS Studio overlay
+
+## Usage
+
 
 ## Snippets
 ### Baseline
+
+> **Warning** other snippets **require** the snippet below.
 
 ```css
 /* Variables */
 :root {
   /* Background color */
   --obs-background: rgba(0, 0, 0, 0.25);
+
+  /* Message author */
+  --obs-message-author-font-size: 13px;
+
+  /* Message content */
+  --obs-message-content-font-size: 13px;
 
   /* Message padding */
   --obs-message-padding-top: 4px;
@@ -39,6 +50,15 @@ yt-live-chat-viewer-engagement-message-renderer,
 html {
   --yt-spec-base-background: var(--obs-background)!important;
 }
+
+/*  */
+yt-live-chat-author-chip {
+  font-size: var(--obs-message-author-font-size)!important;
+}
+#message {
+  font-size: var(--obs-message-content-font-size)!important;
+}
+
 
 /* Message padding */
 yt-live-chat-text-message-renderer {
