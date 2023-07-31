@@ -40,20 +40,15 @@ yt-live-chat-viewer-engagement-message-renderer,
   display: none!important;
 }
 
-/* Make highlighted message transparent */
-yt-live-chat-message-renderer {
-  --yt-live-chat-message-highlight-background-color: transparent!important;
-}
-
 /* Hide the scrollbar */
 #item-scroller {
   overflow-y: hidden!important;
 }
 
-
 /* Background color */
 html {
   --yt-spec-base-background: var(--obs-background)!important;
+  --yt-live-chat-message-highlight-background-color: transparent!important;
 }
 
 /*  */
@@ -63,7 +58,6 @@ yt-live-chat-author-chip {
 #message {
   font-size: var(--obs-message-content-font-size)!important;
 }
-
 
 /* Message padding */
 yt-live-chat-text-message-renderer {
