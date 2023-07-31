@@ -16,16 +16,16 @@ A simple **CSS snippet** for the **YouTube popout** live chat to make it into an
   --obs-background: rgba(0, 0, 0, 0.25);
 
   /* Message author */
-  --obs-message-author-font-size: 13px;
+  --obs-message-author-font-size: 18px;
 
   /* Message content */
-  --obs-message-content-font-size: 13px;
+  --obs-message-content-font-size: 16px;
 
   /* Message padding */
-  --obs-message-padding-top: 4px;
-  --obs-message-padding-right: 24px;
-  --obs-message-padding-bottom: 4px;
-  --obs-message-padding-left: 24px;
+  --obs-message-padding-top: 8px;
+  --obs-message-padding-right: 16px;
+  --obs-message-padding-bottom: 8px;
+  --obs-message-padding-left: 16px;
 }
 
 /* ADVANCED */
@@ -46,7 +46,7 @@ yt-live-chat-viewer-engagement-message-renderer,
   overflow-y: hidden!important;
 }
 #item-offset {
-  position: absolute;
+  position: absolute!important;
   left: 0;
   bottom: 0;
   right: 0;
