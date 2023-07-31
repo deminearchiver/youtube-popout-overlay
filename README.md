@@ -40,6 +40,11 @@ yt-live-chat-viewer-engagement-message-renderer,
   display: none!important;
 }
 
+/* Make highlighted message transparent */
+yt-live-chat-message-renderer {
+  --yt-live-chat-message-highlight-background-color: transparent!important;
+}
+
 /* Hide the scrollbar */
 #item-scroller {
   overflow-y: hidden!important;
