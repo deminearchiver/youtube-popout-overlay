@@ -3,13 +3,14 @@ A simple CSS snippet for the YouTube popout live chat to make it into an OBS Stu
 
 ## Snippets
 ### Baseline
+
 ```css
+/* Variables */
 :root {
   --obs-background: rgba(0, 0, 0, 0.25);
 }
-```
 
-```css
+/* Remove interactive elements */
 yt-live-chat-header-renderer,
 yt-live-chat-viewer-engagement-message-renderer,
 #reaction-control-panel-overlay,
@@ -18,8 +19,13 @@ yt-live-chat-viewer-engagement-message-renderer,
 #panel-pages {
   display: none!important;
 }
-```
-```css
+/* Hide the scrollbar */
+#item-scroller {
+  overflow-y: hidden!important;
+}
+
+
+/* Background color */
 html {
   --yt-spec-base-background: var(--obs-background)!important;
 }
