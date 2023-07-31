@@ -13,6 +13,11 @@ yt-live-chat-viewer-engagement-message-renderer,
   display: none;
 }
 ```
+```css
+html {
+  --yt-spec-base-background: transparent!important;
+}
+```
 
 
 ### Padding
