@@ -36,7 +36,8 @@ yt-live-chat-viewer-engagement-message-renderer,
 #reaction-control-panel-overlay,
 #separator,
 #toast-container,
-#panel-pages {
+#panel-pages,
+#action-panel {
   display: none!important;
 }
 
