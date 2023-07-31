@@ -44,6 +44,12 @@ yt-live-chat-viewer-engagement-message-renderer,
 #item-scroller {
   overflow-y: hidden!important;
 }
+#item-offset {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
 
 /* Background color */
 html {
