@@ -4,18 +4,24 @@ A simple CSS snippet for the YouTube popout live chat to make it into an OBS Stu
 ## Snippets
 ### Baseline
 ```css
+:root {
+  --obs-background: rgba(0, 0, 0, 0.25);
+}
+```
+
+```css
 yt-live-chat-header-renderer,
 yt-live-chat-viewer-engagement-message-renderer,
 #reaction-control-panel-overlay,
 #separator,
 #toast-container,
 #panel-pages {
-  display: none;
+  display: none!important;
 }
 ```
 ```css
 html {
-  --yt-spec-base-background: transparent!important;
+  --yt-spec-base-background: var(--obs-background)!important;
 }
 ```
 
