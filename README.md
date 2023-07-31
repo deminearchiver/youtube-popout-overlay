@@ -7,7 +7,14 @@ A simple CSS snippet for the YouTube popout live chat to make it into an OBS Stu
 ```css
 /* Variables */
 :root {
+  /* Background color */
   --obs-background: rgba(0, 0, 0, 0.25);
+
+  /* Message padding */
+  --obs-message-padding-top: 4px;
+  --obs-message-padding-right: 0px;
+  --obs-message-padding-bottom: 4px;
+  --obs-message-padding-left: 64px;
 }
 
 /* Remove interactive elements */
@@ -31,7 +38,25 @@ html {
 }
 ```
 
-
-### Padding
+### Avatars configuration
+- Hide
 ```css
+/* Hides avatars */
+yt-img-shadow {
+  display: none!important;
+}
+```
+- Customize
+```css
+/* TBD */
+```
+
+### Message padding
+```css
+yt-live-chat-text-message-renderer {
+  padding-top: var(--obs-message-padding-top);
+  padding-right: var(--obs-message-padding-right);
+  padding-bottom: var(--obs-message-padding-bottom);
+  padding-left: var(--obs-message-padding-left);
+}
 ```
