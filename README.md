@@ -87,3 +87,14 @@ yt-img-shadow {
 ```css
 /* TBD */
 ```
+
+### Usernames
+#### Author Chip
+```css
+#author-name.yt-live-chat-author-chip {
+  border-radius: 8px;
+}
+yt-live-chat-author-chip[is-highlighted] #author-name.yt-live-chat-author-chip {
+  padding: 2px 12px;
+}
+```
