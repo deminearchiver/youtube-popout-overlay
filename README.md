@@ -1,5 +1,13 @@
-# YouTube Popout Overlay
-A simple **CSS snippet** for the **YouTube popout** live chat to make it into an OBS Studio overlay
+<div align="center">
+  <h1>YouTube Chat Overlay</h1>
+  <p><a href="#css"><b>CSS snippets</b></a> and <a href="#other"><b>other tools</b></a> for customizing the <b>YouTube Popout Chat</b></p>
+  <a href="https://obsproject.com">
+    <img alt="Static Badge" src="https://img.shields.io/badge/made_for-obs_studio-black?style=for-the-badge&logo=obs-studio">
+  </a>
+</div>
+
+
+
 
 ## Usage
 
