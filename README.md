@@ -6,7 +6,7 @@
   <a href="https://obsproject.com/">
     <img alt="Made for OBS Studio" src="https://img.shields.io/badge/MADE_FOR-OBS_Studio-black?style=for-the-badge&logo=obsstudio">
   </a>
-  <img alt="Requires Chromium" src="https://img.shields.io/badge/Requires-Chromium-blue?style=for-the-badge&logo=googlechrome">
+  <img alt="Requires Chromium" src="https://img.shields.io/badge/Requires-CSS3-blue?style=for-the-badge&logo=css3">
 </div>
 
 
