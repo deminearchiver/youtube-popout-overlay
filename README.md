@@ -1,8 +1,10 @@
 <div align="center">
   <h1>YouTube Chat Overlay</h1>
-  <p><a href="#css"><b>CSS snippets</b></a> and <a href="#other"><b>other tools</b></a> for customizing the <b>YouTube Popout Chat</b></p>
-  <a href="https://obsproject.com">
-    <img alt="Static Badge" src="https://img.shields.io/badge/made_for-obs_studio-black?style=for-the-badge&logo=obs-studio">
+  <p>
+    <a href="#css-snippets"><b>CSS snippets</b></a> and <a href="#other"><b>other tools</b></a> for customizing the <b>YouTube Popout Chat</b>
+  </p>
+  <a href="https://obsproject.com/">
+    <img alt="Made for OBS Studio" src="https://img.shields.io/badge/MADE_FOR-OBS_Studio-black?style=for-the-badge&logo=obs-studio">
   </a>
 </div>
 
@@ -10,6 +12,20 @@
 
 
 ## Usage
+
+## CSS Snippets
+## Troubleshooting
+### Browser Source resize delay
+[![Requires OBS Shaderfilter](https://img.shields.io/badge/Requires-OBS_Shaderfilter-white?logo=obs-studio)](https://github.com/exeldro/obs-shaderfilter/ "exeldro/obs-shaderfilter")
+
+Since the Browser Source in OBS Studio run asyncronously in a separate process, it can't keep up with the Move Transition animations.
+
+You can use OBS Shaderfilter to partly fix this issue.
+> TODO: add custom shader (coming soon)
+
+
+# LEGACY
+
 
 
 ## Snippets
