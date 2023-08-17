@@ -1,7 +1,7 @@
 <div align="center">
   <h1>YouTube Chat Overlay</h1>
   <p>
-    <a href="#css-snippets"><b>CSS snippets</b></a> and <a href="#other"><b>other tools</b></a> for customizing the <b>YouTube Popout Chat</b>
+    <a href="#usage"><b>CSS snippets</b></a> and <a href="#other"><b>other tools</b></a> for customizing the <b>YouTube Popout Chat</b>
   </p>
   <a href="https://obsproject.com/">
     <img alt="Made for OBS Studio" src="https://img.shields.io/badge/MADE_FOR-OBS_Studio-black?style=for-the-badge&logo=obs-studio">
@@ -12,8 +12,6 @@
 
 
 ## Usage
-
-## CSS Snippets
 ## Troubleshooting
 ### Browser Source resize delay
 [![Requires OBS Shaderfilter](https://img.shields.io/badge/Requires-OBS_Shaderfilter-white?logo=obs-studio)](https://github.com/exeldro/obs-shaderfilter/ "exeldro/obs-shaderfilter")
